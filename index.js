@@ -16,6 +16,6 @@ app.use(cookieParser())
 
 app.use("/api",router)
 
-mongoose.connect('')
+mongoose.connect('mongodb+srv://nhom1:admin@nhom1.a9la49x.mongodb.net/?retryWrites=true&w=majority&appName=nhom1')
 
 })
